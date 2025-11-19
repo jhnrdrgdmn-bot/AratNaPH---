@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e9f3f9;
+}
+    header {
+        background: #d9eaf1;
+        padding: 15px 40px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+    }
+
+    header nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .logo img {
+        height: 100px;
+        width: auto;
+        display: block;
+        }
+
+    .login-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #e9f3f9;
+        margin: 0;
+        }
+
+    .login-container {
+        background: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        width: 350px;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        border: 1px solid #dbe5eb;
+        }
+
+    .login-logo {
+        width: 80px;
+        margin-bottom: 5px;
+        }
+
+    .login-container h1, 
+    .login-container .brand-name {
+        margin: 0;
+        font-size: 22px;
+        font-weight: bold;
+        color: #0b2e4a;
+        }
+
+    .google-login {
+        width: 100%;
+        background: #ccc;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        }
+
+    form input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        }
+
+    .login-btn {
+        background: #d9eaf1;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        }
+
+    .login-links {
+        font-size: 12px;
+        margin-top: 10px;
+        }
+
+    .signup-text {
+        margin-top: 10px;
+        font-size: 14px;
+        }
+
+    .link-button {
+        background: none;
+        border: none;
+        color: inherit;
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: inherit;
+        padding: 0;
+        margin: 0;
+    }
