@@ -1,0 +1,114 @@
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f7fa;
+    }
+
+    header {
+        background: #d9eaf1;
+        padding: 15px 40px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+    }
+
+    header nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .logo img {
+        height: 100px;
+        width: auto;
+        display: block;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .grid {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .card {
+        display: flex;
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+        width: 50%;
+        object-fit: cover;
+    }
+
+    .info {
+        padding: 20px;
+        width: 50%;
+    }
+
+    .info h3 {
+        margin: 5px 0;
+        font-size: 22px;
+    }
+
+    .info p {
+        font-size: 14px;
+        color: #444;
+        line-height: 1.4;
+    }
+
+    .highlights {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .info ul {
+        margin: 5px 0 15px 15px;
+        font-size: 14px;
+    }
+
+    .info button {
+        padding: 10px 20px;
+        border-radius: 8px;
+        border: 1px solid #333;
+        background: #fff;
+        cursor: pointer;
+    }
+
+    footer {
+        background: #d9eaf1;
+        padding: 40px 20px;
+        margin-top: 60px;
+    }
+
+    .footer-grid {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    footer h4 {
+        margin-bottom: 10px;
+    }
+    
+    footer p {
+        margin: 6px 0;
+    }
+</style>
